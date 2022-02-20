@@ -1,0 +1,13 @@
+#SAY YES AND NO PROGRAM
+i=0
+a=input("SAY YES(y) OR NO(n) : ")
+if a=="y":
+    print("JUST DO IT")
+elif a=="n":
+    while i<=5:
+        b=input("SAY YES(y) OR NO(n) : ")
+        if b=="n":
+            continue
+            i+=1
+        else:print("JUST DO IT")
+        break
