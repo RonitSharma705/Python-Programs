@@ -1,0 +1,6 @@
+#adding two number user input
+
+a=int(input("First Number = "))
+b=int(input("Second Number = "))
+sum=int(a)+int(b)
+print("Addition of",a,"+",b,"=",sum)
