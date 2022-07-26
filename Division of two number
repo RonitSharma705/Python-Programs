@@ -1,0 +1,6 @@
+#division of two number
+
+a=int(input("First Number = "))
+b=int(input("Second Number = "))
+sum=int(a)/int(b)
+print("Division of",a,"/",b,"=",sum)
