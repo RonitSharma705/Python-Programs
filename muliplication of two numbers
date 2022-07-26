@@ -1,0 +1,6 @@
+#multiplication of two numbers
+
+a=int(input("First Number = "))
+b=int(input("Second Number = "))
+sum=int(a)*int(b)
+print("Mulitiplication of",a,"x",b,"=",sum)
