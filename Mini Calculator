@@ -1,0 +1,15 @@
+a = input("Enter First Number : ")
+b = input("Enter Operators [+],[-],[x],[/] : ")
+c = input("Enter Second Number : ")
+a = int(a)
+c = int(c)
+if b == "+":
+    print("This is the Addition of" ,a ,"and" ,c,"=",a + c)
+elif b == "-":
+    print("This is the Subtraction of" ,a ,"and" ,c,"=",a - c)
+elif b == "*":
+    print("This is the Multiplication of" ,a ,"and", c,"=",a * c)
+elif b == "/":
+    print("This is the Division of" ,a ,"and" ,c,"=",a / c)
+else:
+    print("Operation are Invalid")
