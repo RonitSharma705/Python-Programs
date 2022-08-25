@@ -1,0 +1,14 @@
+def _sum(arr):
+	sum = 0
+	for i in arr:
+		sum = sum + i
+	return(sum)
+
+arr = []
+arr = [10, 30, 40, 20]
+
+n = len(arr)
+
+ans = _sum(arr)
+
+print('Sum of the array is ', ans)
