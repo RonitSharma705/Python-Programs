@@ -1,0 +1,10 @@
+# Swapping Number
+
+a=int(input("Enter a Number = "))
+b=int(input("Enter a Number = "))
+def my_fuction(a,b):
+    a=a+b
+    b=a-b
+    a=a-b
+    print(a,b)
+my_fuction(a,b)
