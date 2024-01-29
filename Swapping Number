@@ -8,3 +8,5 @@ def my_fuction(a,b):
     a=a-b
     print(a,b)
 my_fuction(a,b)
+
+
