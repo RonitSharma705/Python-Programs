@@ -1,0 +1,9 @@
+# Increment Condition
+
+salary=int(input("Enter your Salary : "))
+age=int(input("Enter your age : "))
+if(salary>=3000):
+    if(age>=20):
+        print("You are Eligible to Increment")
+if(age<=18 and salary<=3000):
+    print("You are not Eligible to Increment")
