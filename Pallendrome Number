@@ -1,0 +1,11 @@
+rev=0
+a=int(input("Enter a Number")) #101
+c=a
+while(a>0):
+    b=a%10
+    rev=rev*10+b
+    a=a//10
+    if(c==rev):
+        print("Pallendrome")
+    else:
+        print("Not Pallendrome")
