@@ -1,0 +1,7 @@
+rev=0
+a=int(input("Enter a Number")) #101
+while(a>0):
+    b=a%10
+    rev=rev*10+b
+    a//=10
+print(rev)
