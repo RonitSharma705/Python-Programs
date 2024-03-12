@@ -1,0 +1,6 @@
+class my:
+    x=10
+    y=5
+x1=my()
+y1=my()
+print(x1.x+y1.y)
