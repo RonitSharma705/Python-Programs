@@ -1,0 +1,9 @@
+a=input("Enter ")
+if(a>'0' and a<'9'):
+    print(a,"Its a Number")
+elif(a>'a' and a<'z'):
+    print(a,"Its a Alphabet")
+elif(a>'A' and a<'Z'):
+    print(a,"Its a Alphabet")
+else:
+    print(a,"Its a Special Character")
