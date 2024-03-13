@@ -1,0 +1,9 @@
+class fact:
+    def result(self):
+        a=int(input("Enter a Number : "))
+        if(a%2==0):
+            print(a, "is a Even")
+        else:
+            print(a, "is a Odd")
+obj=fact()
+obj.result()
