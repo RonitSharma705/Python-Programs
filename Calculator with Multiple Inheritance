@@ -1,0 +1,17 @@
+class cal1:
+    def add(self, a,b):
+        return a+b;
+class cal2:
+    def sub(self, a,b):
+        return a-b;
+class cal3:
+    def multiple(self, a,b):
+        return a*b;
+class cal4(cal1,cal2,cal3):
+    def divide(self, a,b):
+        return a/b;
+d=cal4()
+print(d.add(10,5))
+print(d.sub(10,5))
+print(d.multiple(10,5))
+print(d.divide(10,5))
