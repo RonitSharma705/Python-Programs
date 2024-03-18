@@ -1,0 +1,21 @@
+class vehicle:
+    def cars(self):
+        print("Brands name")
+class brand1(vehicle):
+    def bmw(self):
+        print("BMW")
+class brand2:
+    def audi(self):
+        print("Audi")
+class brand3:
+    def wagon(self):
+        print("G-Wagon")
+class brand4(brand1,brand2,brand3):
+    def swift(self):
+        print("Swift")
+a=brand4()
+a.cars()
+a.bmw()
+a.audi()
+a.wagon()
+a.swift()
