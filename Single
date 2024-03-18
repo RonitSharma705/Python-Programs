@@ -1,9 +1,0 @@
-class parent:
-    def father(self):
-        print("This is a Father Class")
-class child(parent):
-    def child(self):
-        print("This is a Child Class")
-obj=child()
-obj.father()
-obj.child()
