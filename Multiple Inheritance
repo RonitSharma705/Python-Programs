@@ -1,17 +1,1 @@
-class parent:
-    def Cars(self):
-        print("Cars")
-class child1(parent):
-    def brand1(self):
-        print("Audi")
-class child2(child1):
-    def brand2(self):
-        print("Bentlay")
-class child3(child2):
-    def brand3(self):
-        print("G-Wagon")
-obj=child3()
-obj.Cars()
-obj.brand1()
-obj.brand2()
-obj.brand3()
+
