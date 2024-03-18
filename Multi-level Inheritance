@@ -1,0 +1,25 @@
+class parent:
+    def brand(self):
+        print("Brand")
+class child1(parent):
+    def brand1(self):
+        print("Audi")
+class child2(child1):
+    def brand2(self):
+        print("Bentlay")
+class child3(child2):
+    def brand3(self):
+        print("Swift")
+class child4(child3):
+    def brand4(self):
+        print("Wagonar")
+class drived(child4):
+    def drived(self):
+        print("End")
+a=drived()
+a.brand()
+a.brand1()
+a.brand2()
+a.brand3()
+a.brand4()
+a.drived()
