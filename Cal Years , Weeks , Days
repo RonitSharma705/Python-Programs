@@ -3,3 +3,4 @@ years=(num//365)
 weeks=(num%365)//7
 days=(num%365)%7
 print(years,"Years",weeks,"Weeks",days,"Days")
+
