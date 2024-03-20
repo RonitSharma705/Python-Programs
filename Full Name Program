@@ -1,9 +1,7 @@
 
 def FullName(full):
-    print(full +" is a BAD BOY")
+    print(full +" is a Good Boy")
 first=input("FIRST NAME = ")
 last=input("LAST NAME = ")
 full= first + last
 FullName(full)
-
-
