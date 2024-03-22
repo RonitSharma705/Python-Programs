@@ -1,0 +1,17 @@
+class Bikes():
+    def brand(self):
+        print("Brands")
+class Hero():
+    def brand1(self):
+        print("Hero")
+class Bullet():
+    def brand2(self):
+        print("Bullet")
+class Yamaha(Bikes,Hero,Bullet):
+    def brand3(self):
+        print("Yamaha")
+obj=Yamaha()
+obj.brand()
+obj.brand1()
+obj.brand2()
+obj.brand3()
