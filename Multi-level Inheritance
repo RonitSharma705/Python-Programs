@@ -1,13 +1,13 @@
 class Bikes():
     def brand(self):
         print("Brands")
-class Hero():
+class Hero(Bikes):
     def brand1(self):
         print("Hero")
-class Bullet():
+class Bullet(Hero):
     def brand2(self):
         print("Bullet")
-class Yamaha(Bikes,Hero,Bullet):
+class Yamaha(Bullet):
     def brand3(self):
         print("Yamaha")
 obj=Yamaha()
