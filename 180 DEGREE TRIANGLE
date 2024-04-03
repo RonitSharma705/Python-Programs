@@ -1,5 +1,3 @@
-#180 DEGREE TRIANGLE
-
 for i in range(1,6):
     for u in range(1,6-i):
         print(" ",end="")
