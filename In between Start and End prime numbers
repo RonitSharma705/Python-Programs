@@ -1,5 +1,3 @@
-#In between Start and End prime numbers
-
 start = int(input("enter number: "))
 end = int(input("enter number: "))
 print("Prime numbers between", start, "and", end, "are:")
