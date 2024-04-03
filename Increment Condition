@@ -1,5 +1,3 @@
-# Increment Condition
-
 salary=int(input("Enter your Salary : "))
 age=int(input("Enter your age : "))
 if(salary>=3000):
