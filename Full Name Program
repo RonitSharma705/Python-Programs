@@ -1,4 +1,3 @@
-
 def FullName(full):
     print(full +" is a Good Boy")
 first=input("FIRST NAME = ")
