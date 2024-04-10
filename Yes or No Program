@@ -1,4 +1,3 @@
-#SAY YES AND NO PROGRAM
 i=0
 a=input("SAY YES(y) OR NO(n) : ")
 if a=="y":
