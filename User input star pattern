@@ -1,5 +1,3 @@
-#User input star pattern
-
 n=int(input("EMTER NUMBERS OF ROWS : "))
 l=n+1
 for i in range(1, l):
