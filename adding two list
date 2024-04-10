@@ -1,6 +1,3 @@
-#Adding Two List
-
 a=["apple","banana","grapes","orange"]
 b=["vollyball","badminton","ball","bat"]
 print(a+b)
-
